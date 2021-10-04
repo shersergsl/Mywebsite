@@ -1,0 +1,46 @@
+body {text-align: center}
+.zagolovok {
+	background-color: #7995f2;
+	font-size: 44px;
+	padding: 80px;
+}
+
+.kolonka {
+	flex: 0 1 33,333%;
+	display: flex;
+	flex-direction: column;
+    background-color: #0a4b94;
+    padding: 2px 2px;
+    border-radius: 20px;
+    margin: 20px 30px 10px 30px;
+    max-width: 180px;
+    box-shadow: 10px  10px 20px rgba(0,0,0,0.8);
+    }
+.block {
+	display: flex;
+	justify-content: center;
+    }
+.box {flex-wrap:wrap;}
+.verh{
+	background-color: #fff;
+	font-size: 32px;
+	border-radius: 17px;
+	padding: 17px;
+	margin: 2px 2px 10px 2px;
+	border: 2px solid #031830;
+    }
+.knopka {
+	background-color: #fff;
+	font-size: 22px;
+	border-radius: 17px;
+	padding: 3px;
+	margin: 8px 22px 8px 22px;
+	border: 2px solid #031830;
+	}
+.paragraf {
+	text-align: left;
+	font-size: 16px;
+	color: white;
+	margin: 3px;
+	flex: 1 1 auto;
+	}
