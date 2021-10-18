@@ -47,7 +47,7 @@
 }
 .leftblock_r{
     background-color: rgb(5, 55,105);
-    width: 100px;
+    min-width: 100px;
     height: 70px;
     border-top-right-radius: 40px 25px;
     margin: 0 -2px 0 0;
@@ -78,7 +78,7 @@
 }
 .rightblock_l{
     background-color: rgb(5, 55,105);
-    width: 100px;
+    min-width: 100px;
     height: 70px;
     border-top-left-radius: 40px 25px;
     margin: 0 0 0 -1px;
