@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('../fonts/MontserratExtraBold.eot');
+    src: url('../fonts/MontserratExtraBold.eot') format('embedded-opentype'),
+         url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+         url('../fonts/MontserratExtraBold.woff') format('woff'),
+         url('../fonts/MontserratExtraBold.ttf') format('truetype'),
+         url('../fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+}
+.header {
+    width: 100%;
+}
+.wraper {
+    padding: 200px 0px 0 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 54px;
+    font-family: 'MontserratExtraBold';
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.text_one{
+    margin: 0 0 30px 0;
+}
+.text_too{
+    margin: 0 0 30px 0;
+}
+.lamp{
+    display: flex;
+    flex-direction: column;
+}
+.kabel{
+    background-color: rgb(13, 73, 73);
+    width: 4px;
+    height: 80px;
+}
+.celindr{
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+}
+
