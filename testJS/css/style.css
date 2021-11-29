@@ -1,0 +1,12 @@
+.wraper{
+    display: flex;
+}
+.kub2{
+    margin: 50px;
+    width: 100px;
+    height: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 90px solid aquamarine;
+    border-radius: 20px;
+    }
