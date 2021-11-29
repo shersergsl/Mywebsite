@@ -9,15 +9,13 @@ const rightblock_l = document.querySelector(".rightblock_l");
 
 colo_l.addEventListener("mouseenter", function (createStyle) {
   centr_l.style.backgroundColor = "rgb(0, 0, 0,0)";
-  centr_l.style.width = "106px";
+  centr_l.style.width = "104px";
   centr_l.style.height = "62px";
   centr_l.style.backgroundImage =
     "radial-gradient(circle at 53px -20px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 60px, rgb(5,55,105) 61px)";
   centr_l.style.color = "#FFF";
   leftblock_r.style.borderTopLeftRadius = "40px 25px";
-  leftblock_r.style.margin = "0px -2px";
   leftblock_l.style.borderTopRightRadius = "40px 25px";
-  leftblock_l.style.margin = "0px -2px";
 });
 
 colo_l.addEventListener("mouseleave", function (createStyle) {
@@ -28,21 +26,17 @@ colo_l.addEventListener("mouseleave", function (createStyle) {
     "radial-gradient(circle at 53px -20px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 60px, rgb(5,55,105) 61px)";
   centr_l.style.color = "#FFF";
   leftblock_r.style.borderTopLeftRadius = "0px";
-  leftblock_r.style.margin = "0px -2px";
   leftblock_l.style.borderTopRightRadius = "0";
-  leftblock_l.style.margin = "0px 0px";
 });
 colo_r.addEventListener("mouseenter", function (createStyle) {
   centr_r.style.backgroundColor = "rgb(0, 0, 0,0)";
-  centr_r.style.width = "106px";
+  centr_r.style.width = "104px";
   centr_r.style.height = "62px";
   centr_r.style.backgroundImage =
     "radial-gradient(circle at 53px -20px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 60px, rgb(5,55,105) 61px)";
   centr_r.style.color = "#FFF";
   rightblock_r.style.borderTopLeftRadius = "40px 25px";
-  rightblock_r.style.margin = "0px -2px";
   rightblock_l.style.borderTopRightRadius = "40px 25px";
-  rightblock_l.style.margin = "0px -2px";
 });
 
 colo_r.addEventListener("mouseleave", function (createStyle) {
@@ -53,7 +47,5 @@ colo_r.addEventListener("mouseleave", function (createStyle) {
     "radial-gradient(circle at 53px -20px, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 60px, rgb(5,55,105) 61px)";
   centr_r.style.color = "#FFF";
   rightblock_r.style.borderTopLeftRadius = "0px";
-  rightblock_r.style.margin = "0px -2px";
   rightblock_l.style.borderTopRightRadius = "0";
-  rightblock_l.style.margin = "0px 0px";
 });
