@@ -6,6 +6,12 @@ const colo_r = document.querySelector(".colo_r");
 const centr_r = document.querySelector(".centr_r");
 const rightblock_r = document.querySelector(".rightblock_r");
 const rightblock_l = document.querySelector(".rightblock_l");
+const boorger = document.querySelector(".boorger");
+const headermenu_kvadro = document.querySelector(".headermenu_kvadro");
+
+boorger.addEventListener("click", function (e) {
+    headermenu_kvadro.parentElement.classList.toggle('_active');
+});
 
 colo_l.addEventListener("mouseenter", function (createStyle) {
   centr_l.style.backgroundColor = "rgb(0, 0, 0,0)";
